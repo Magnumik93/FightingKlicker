@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+<<<<<<< Updated upstream
+guid: 3016589cd10c63b4687f85406bcfa4dd
+=======
+guid: b6a1fe76781df4b4eaf2845968e428a0
+>>>>>>> Stashed changes
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Celtic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
