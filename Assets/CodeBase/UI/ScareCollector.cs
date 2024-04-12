@@ -24,8 +24,9 @@ public class ScareCollector : MonoBehaviour
         ScoreChanged.Invoke(_scoreCollected);
     }
 
-    private void Awake()
+    private void Start()
     {
+        _scoreCollected = 0;
         ScoreChanged.Invoke(_scoreCollected);
     }
 }

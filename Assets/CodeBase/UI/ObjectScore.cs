@@ -7,8 +7,6 @@ public class ObjectScore : MonoBehaviour
 
     public static event Action<int> OnChanged;
 
-    public void Active()
-    {
+    public void Active() => 
         OnChanged?.Invoke(_score);
-    }
 }

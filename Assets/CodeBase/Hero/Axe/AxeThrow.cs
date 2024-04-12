@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace CodeBase.Hero.Axe
 {
@@ -10,7 +11,7 @@ namespace CodeBase.Hero.Axe
 
         private int _move;
         private Vector3 _spawn;
-
+        
         private void Start()
         {
             _spawn = transform.position;
@@ -34,13 +35,7 @@ namespace CodeBase.Hero.Axe
 
         private void OnTriggerEnter2D(Collider2D collider2D)
         {
-            if (collider2D.CompareTag("Enemy"))
-            {
-                DestroyAxe();
-            }
-
-            if (collider2D.CompareTag("Destroy"))
-                DestroyAxe();
+            DestroyAxe();
         }
 
         private void DestroyAxe()

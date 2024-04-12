@@ -8,11 +8,6 @@ public class ScoreText : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _text;
 
-    public void ShowValue(int value)
-    {
-        
-        Debug.Log(value);
-        
+    public void ShowValue(int value) => 
         _text.text = value.ToString();
-    }
 }

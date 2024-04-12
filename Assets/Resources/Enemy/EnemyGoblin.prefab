@@ -223,6 +223,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _imageCurrent: {fileID: 0}
+  _current: 1
 --- !u!114 &8072950388877280491
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,9 +126,9 @@ TextureImporter:
       name: HPbar_0
       rect:
         serializedVersion: 2
-        x: 639
+        x: 636
         y: 1446
-        width: 940
+        width: 883
         height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: HPbar_1
       rect:
         serializedVersion: 2
-        x: 477
-        y: 1133
-        width: 1140
-        height: 220
+        x: 636
+        y: 1314
+        width: 883
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,27 +160,6 @@ TextureImporter:
       bones: []
       spriteID: b26ecad15eb00be439a14b363e1146e7
       internalID: 219331966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HPbar_2
-      rect:
-        serializedVersion: 2
-        x: 477
-        y: 692
-        width: 1140
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 297888e26e8c76a47b607a887884dfa8
-      internalID: 1146760616
       vertices: []
       indices: 
       edges: []
@@ -198,7 +177,6 @@ TextureImporter:
     nameFileIdTable:
       HPbar_0: 463780037
       HPbar_1: 219331966
-      HPbar_2: 1146760616
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

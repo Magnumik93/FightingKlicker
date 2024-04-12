@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7055791881375790902}
   - component: {fileID: 3134954218672580001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AxeSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 5471686711060511778}
   - component: {fileID: 8766121605782907805}
   - component: {fileID: 8586785208706117382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hero
   m_TagString: Player
   m_Icon: {fileID: 0}

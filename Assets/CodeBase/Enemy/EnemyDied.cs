@@ -1,10 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using CodeBase.Hero.Axe;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class EnemyDied : MonoBehaviour
 {
     [SerializeField] private UnityEvent KillEnemy;
+    [SerializeField] private Image _imageCurrent;
+    [SerializeField] private float _current;
 
     private EnemyAnimator _animator;
     private EnemyMove _enemyMove;
@@ -16,16 +21,21 @@ public class EnemyDied : MonoBehaviour
         _enemyMove = GetComponent<EnemyMove>();
         _collider2D = GetComponent<BoxCollider2D>();
     }
+    
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
         if (collider2D.CompareTag("Axe"))
         {
-            Died();
-            
-            KillEnemy?.Invoke();
+            _current -= 1;
+            if (_current == 0)
+            {
+                Died();
+
+                KillEnemy?.Invoke();
+            }
         }
-        else if (collider2D.CompareTag("Player"))
+        if (collider2D.CompareTag("Player"))
         {
             Died();
         }
