@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 A:\GitHub\SleepingFrogTest
+=======
+A:\GitHub\FightingKlicker
+>>>>>>> 8eec448e25fcb99e21611892086f9f31d60ca5dd

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ICharacterDataProvider
 UnityEditor
 U2D
@@ -52,6 +53,8 @@ UnityEditor
 AdvancedRuleOverrideTile
 UnityEngine
 RuleOverrideTile
+=======
+>>>>>>> 8eec448e25fcb99e21611892086f9f31d60ca5dd
 AssetModificationProcessor
 
 Sysroot

@@ -3,12 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags:
   - HpHero
   - Axe
   - Enemy
   - Destroy
   - Pouse
+=======
+  tags: []
+>>>>>>> 8eec448e25fcb99e21611892086f9f31d60ca5dd
   layers:
   - Default
   - TransparentFX
@@ -17,8 +21,13 @@ TagManager:
   - Water
   - UI
   - 
+<<<<<<< HEAD
   - Axe
   - Hero
+=======
+  - 
+  - 
+>>>>>>> 8eec448e25fcb99e21611892086f9f31d60ca5dd
   - 
   - 
   - 
