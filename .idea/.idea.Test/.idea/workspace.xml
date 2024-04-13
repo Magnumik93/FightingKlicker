@@ -22,11 +22,12 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/AxeSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/HeroInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/ButoonInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/ObjectScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/ScareCollector.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/UI/ScoreText.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/ObjectScore.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Enemy/EnemyDied.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Hero/Axe/AxeThrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/ScareCollector.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/UI/ButoonInput.cs" />
       </list>
     </option>
   </component>
@@ -41,6 +42,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../BuildTest\Test.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="A:\Xernia\Tests\1111\BuildTest" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -69,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712915398258</updated>
       <workItem from="1712915401929" duration="11772000" />
+      <workItem from="1712931157499" duration="7470000" />
     </task>
     <servers />
   </component>
